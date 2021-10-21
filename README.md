@@ -10,6 +10,6 @@ Little program that generates a text file with random numbers. I was really tire
   - I could be wrong about the repository (still new to GitHub)
 - Build/Run the .java file in your IDE after setting the location for file creation
   - code comments should help you out here
-  - you will be prompted to enter the number of values required for your assignment/project after successfully running the program
+  - you will be prompted to enter the number of values required for your assignment/project after successfully running the program, which will specify how many random numbers will be in the file created.
 - Finally open the created file and verify that it was generated successfully
   - file should have a positive integer number on every line
