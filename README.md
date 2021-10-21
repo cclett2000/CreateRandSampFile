@@ -12,4 +12,4 @@ Little program that generates a text file with random numbers. I was really tire
   - code comments should help you out here
   - you will be prompted to enter the number of values required for your assignment/project after successfully running the program
 - Finally open the created file and verify that it was generated successfully
-  - file should have a number on every line
+  - file should have a positive integer number on every line
