@@ -5,7 +5,7 @@ Little program that generates a text file with random numbers. I was really tire
 - I recommend IntelliJ IDEA if you need an IDE (Link: https://www.jetbrains.com/idea/)
 
 # Instructions
-- First open the 'src' folder and then open 'CreateFile.java'
+- First open the 'src' folder and then open 'CreateFile.java' (on GitHub)
 - I recommend copying and pasting the code into your IDE, however, you can download either the file or the entire repository
   - I could be wrong about the repository (still new to GitHub :/)
 - Build/Run the .java file in your IDE after setting the location for file creation
