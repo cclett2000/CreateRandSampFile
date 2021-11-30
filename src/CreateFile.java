@@ -10,10 +10,12 @@ import java.io.*;
 
 public class CreateFile {
     public static void main(String[] args) throws FileNotFoundException{
-        String FileLocation = "C:\\Users\\cclet\\Desktop\\sample.txt";
+        String FileLocation = "C:\\Users\\cclet\\Desktop";
         // ^ specifies where to create the sample file
         // if using desktop as path, syntax should be similar to:
-        //      - C:\\Users\\<YOUR_USERNAME_HERE>\\Desktop\\<FILENAME.txt>
+        //      - C:\\Users\\<YOUR_USERNAME_HERE>\\Desktop
+        //          ^file name is generated during runtime with number denoting
+        //           number of values
         int numLength, val; // init var for number of values and random value
         Scanner uInput = new Scanner(System.in); // init user input for number of val
         Random rand = new Random(); // init for RNG
@@ -38,12 +40,12 @@ public class CreateFile {
         numLength = uInput.nextInt(); // store user input (num of val)
 
         // create file
-        File newFile = new File(FileLocation); // create file
+        File newFile = new File(FileLocation + "\\sample_" + numLength + ".txt"); // create file
         PrintWriter writeFile = new PrintWriter(new FileOutputStream(newFile)); //init for file writer
-        System.out.println("File created!\n > Path: " + newFile); // verify message
+        System.out.println("\nFile created!\n > Path: " + newFile); // verify message
 
         // loop to generate/write values to file
-        System.out.println("Beginning File Write..."); // write start message
+        System.out.println("\nBeginning File Write..."); // write start message
         for (int i = 0; i < numLength; i++){
             val = rand.nextInt(999); // gen random num
             if (i == numLength - 1){
@@ -52,12 +54,12 @@ public class CreateFile {
             }
             else{
                 // write random num to file (every line)
-                writeFile.write(String.valueOf(val) + "\n");
+                writeFile.write(val + "\n");
             }
         }
 
         // output to user with tips, finish message, etc.
-        System.out.println("File Write Completed!"); // write finish message
+        System.out.println(" > File Write Completed!\n"); // write finish message
 
         System.out.println("""
                 ***NOTE***
