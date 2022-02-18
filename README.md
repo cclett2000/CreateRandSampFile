@@ -1,3 +1,19 @@
+# ***NEW UPDATE: Quality of life improvements and the ability to run program without an IDE!***
+  - REQUIREMENTS:
+    - Windows Operating System
+    - Java JDK version 17+ (May work on older versions but I only tested with version 17.0.2)
+
+  - DESCRIPTION:
+    The folder 'ExternalUse' contains updated code for 'CreateRandSampFile' with a batch file that'll execute the code so an IDE isn't required.
+
+  - INSTALL/USAGE:
+    1. Download the folder 'ExternalUse'.
+    2. Open 'ExternalUse' and select '.CreateSampFile'
+    3. Either open '.CreateSampFile' and run 'run.bat' or move the folder to another place in your hard drive
+    4. you can also rename the folder if you'd like!
+    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # CreateRandSampFile
 Little program that generates a text file with random numbers. I was really tired of typing random numbers for class so here is my solution!
 
