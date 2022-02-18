@@ -1,7 +1,7 @@
 # ***NEW UPDATE: Quality of life improvements and the ability to run program without an IDE!***
   - REQUIREMENTS:
     - Windows Operating System (tested on Windows 10)
-    - Java JDK version 17+ (May work on older versions but I only tested with version 17.0.2)
+    - Java JDK version 17+ (May work on older versions, but I only tested with version 17.0.2)
       - Link: https://www.oracle.com/java/technologies/downloads/ 
 
   - DESCRIPTION:
