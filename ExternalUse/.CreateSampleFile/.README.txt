@@ -7,7 +7,4 @@ DESCRIPTION:
 	This folder contains updated code for 'CreateRandSampFile' with a batch file that'll execute the code so an IDE isn't required.
 	
 INSTALL/USAGE:
-	1. Download the folder 'ExternalUse'.
-	2. Open 'ExternalUse' and select '.CreateSampFile'
-	3. Either open '.CreateSampFile' and run 'run.bat' or move the folder to another place in your hard drive
-	4. you can also rename the folder if you'd like!
+	Just execute 'run.bat' and you should be good to go!
