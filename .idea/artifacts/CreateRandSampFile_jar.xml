@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CreateRandSampFile:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CreateRandSampFile_jar</output-path>
+    <root id="archive" name="CreateRandSampFile.jar">
+      <element id="module-output" name="CreateRandSampFile" />
+    </root>
+  </artifact>
+</component>

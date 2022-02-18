@@ -10,7 +10,7 @@ import java.io.*;
 
 public class CreateFile {
     public static void main(String[] args) throws FileNotFoundException{
-        String FileLocation = "C:\\Users\\cclet\\Misc\\.CreateSampleFile";
+        String FileLocation = "..\\.CreateSampleFile";
         // ^ specifies where to create the sample file
         // if using desktop as path, syntax should be similar to:
         //      - C:\\Users\\<YOUR_USERNAME_HERE>\\Desktop
@@ -65,7 +65,7 @@ public class CreateFile {
                 ***NOTE***
                 (AFTER RUN) If using an IDE like IntelliJ IDEA, you should be able to click on the line after '> Path:' to access the sample file.
                    > do this to verify everything worked!
-                   > can also copy the line to use as your path for reading in the file!""");
+                   > can also copy the line to use as your path for reading in the file!\n""");
 
         writeFile.close(); // close file writer
 
