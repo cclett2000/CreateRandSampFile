@@ -12,7 +12,6 @@
     2. Unzip either entire repository or the 'ExternalUse' folder to a new folder
     3. Open 'ExternalUse' and select '.CreateSampFile'
     4. Either open '.CreateSampFile' and run 'run.bat' or move the folder to another place in your hard drive
-    5. you can also rename the folder if you'd like!
     
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
